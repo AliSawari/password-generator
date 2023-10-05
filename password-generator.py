@@ -5,7 +5,7 @@ import random
 import string
 from sys import argv
 
-all_chars = string.ascii_letters + string.digits + '''!@#$%^&*()_-=+|;:.,<>?~{}'''
+all_chars = string.ascii_letters + string.digits + '''!@#$%&*()-=+?~{}'''
 
 random.seed = os.urandom(2048)
 
